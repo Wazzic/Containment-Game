@@ -1,0 +1,1 @@
+﻿{"inkVersion":20,"root":[["^Hello","\n","^Branching Point","\n","ev","str","^Things","/str","/ev",{"*":"0.c-0","flg":20},"ev","str","^Things2","/str","/ev",{"*":"0.c-1","flg":20},{"c-0":["^ Help","\n",{"->":"0.g-0"},{"#f":5}],"c-1":["^ Agian","\n",{"->":"0.g-0"},{"#f":5}],"g-0":["done",{"#f":5}]}],"done",{"#f":1}],"listDefs":{}}
