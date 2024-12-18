@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C6AE0B3C-2FD4-9D8B-6066-708F3408C3FD}</ProjectGuid>
+    <ProjectGuid>{2109EA73-E726-993B-472E-D184FD25C37C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -905,7 +905,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Ink-Libraries.Player.csproj">
-      <Project>{96F263F1-A42B-E432-B15A-CB844F5F9560}</Project>
+      <Project>{2E7C4036-7ABE-81FF-11B4-CB8E36F193FD}</Project>
       <Name>Ink-Libraries.Player</Name>
     </ProjectReference>
   </ItemGroup>
