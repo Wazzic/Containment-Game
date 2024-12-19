@@ -87,8 +87,8 @@
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkRuntime\ControlCommand.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\ContentList.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\AuthorWarning.cs" />
-    <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\InkParser\InkParser_Divert.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\Number.cs" />
+    <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\InkParser\InkParser_Divert.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\InkParser\CommentEliminator.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkRuntime\StoryState.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\Conditional.cs" />
@@ -121,8 +121,8 @@
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\Divert.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkRuntime\NativeFunctionCall.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\DivertTarget.cs" />
-    <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\FileHandler.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkRuntime\CallStack.cs" />
+    <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\FileHandler.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkRuntime\StatePatch.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\InkParser\InkParser_Knot.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkRuntime\Error.cs" />
@@ -146,8 +146,8 @@
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkRuntime\Profiler.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkRuntime\Container.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkRuntime\Object.cs" />
-    <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\Sequence.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\Gather.cs" />
+    <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\Sequence.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkCompiler\ParsedHierarchy\INamedContent.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkRuntime\VariableAssignment.cs" />
     <Compile Include="Assets\External Assets\Ink\InkLibs\InkRuntime\Value.cs" />
