@@ -32,10 +32,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -163,21 +161,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5026}
     - Class: 114
-      Script: {instanceID: 5338}
+      Script: {instanceID: 5340}
     - Class: 114
-      Script: {instanceID: 5694}
+      Script: {instanceID: 5696}
     - Class: 114
-      Script: {instanceID: 5822}
+      Script: {instanceID: 5824}
     - Class: 114
-      Script: {instanceID: 6078}
+      Script: {instanceID: 6080}
     - Class: 114
-      Script: {instanceID: 6172}
+      Script: {instanceID: 6174}
     - Class: 114
-      Script: {instanceID: 6428}
+      Script: {instanceID: 6430}
     - Class: 114
-      Script: {instanceID: 6830}
+      Script: {instanceID: 6832}
     - Class: 114
-      Script: {instanceID: 8194}
+      Script: {instanceID: 8196}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1228,5 +1226,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Objects_Placement.unity
-  playerPath: C:/Users/markt/Unity Games/Executable Projects/Containment Game/DES
+  playerPath: C:/Users/markt/Unity Games/Executable Projects/Containment New/DES
     311 Containment Game.exe
