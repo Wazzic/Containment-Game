@@ -434,7 +434,6 @@ GameObject:
   - component: {fileID: 4511805751075040}
   - component: {fileID: 33766629163536614}
   - component: {fileID: 23901474274552900}
-  - component: {fileID: 114514136136964088}
   - component: {fileID: 1473134701552138713}
   m_Layer: 0
   m_Name: Toilet Door
@@ -509,25 +508,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &114514136136964088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1948481943924828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e7954b3afdba044799272ef7bf5c206, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UseDoors:
-  - Door: {fileID: 1948481943924828}
-    CloseValue: 0
-    OpenValue: 90
-    isDoorOpen: 0
-    RotationOrigin: {fileID: 1948481943924828}
-  door_in_use: 0
 --- !u!65 &1473134701552138713
 BoxCollider:
   m_ObjectHideFlags: 0

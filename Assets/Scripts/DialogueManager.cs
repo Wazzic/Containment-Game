@@ -32,7 +32,7 @@ public class DialogueManager : MonoBehaviour
 
     // Enter or selecting options
     // Space to skip dialogue
-    // P to close dialogue box
+    // Esc to close dialogue box
 
     private void Awake()
     {
@@ -70,7 +70,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
             StartCoroutine(ExitDialogueMode());
         }
@@ -93,7 +93,7 @@ public class DialogueManager : MonoBehaviour
     private IEnumerator ExitDialogueMode()
     {
         yield return new WaitForSeconds(0.05f); // Changes the typing speed
-        Debug.Log("Exiting Dialogue mode");
+        //Debug.Log("Exiting Dialogue mode");
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
         dialogueText.text = "";
@@ -193,7 +193,7 @@ public class DialogueManager : MonoBehaviour
                 yield return new WaitForSeconds(0.015f); // Changes the typing speed
             }
         }
-        yield return new WaitForSeconds(1f); //Waits a period before next line
+        yield return new WaitForSeconds(0.5f); //Waits a period before next line
         //Debug.Log("WAITED 0.8 SECS");
         DisplayChoices();
         CanContinueToNextLine = true;
