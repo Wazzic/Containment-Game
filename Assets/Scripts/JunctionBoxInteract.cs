@@ -5,8 +5,6 @@ using UnityEngine;
 public class JunctionBoxInteract : MonoBehaviour
 {
     private bool InRange = false;
-
-
     public Light[] _lights;
     public bool isOn = true;
 
@@ -22,7 +20,6 @@ public class JunctionBoxInteract : MonoBehaviour
        isOn = !isOn;
         for(int i = 0; i < _lights.Length; i++)
         {
-            Debug.Log("Switching light");
             _lights[i].enabled = isOn;
         }
     }

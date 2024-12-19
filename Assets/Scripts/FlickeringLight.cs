@@ -43,7 +43,6 @@ public class FlickeringLight : MonoBehaviour
 
     public void NextColour()
     {
-       // Debug.Log("Nextcolour");
         if(x==0)
         {
             x++;

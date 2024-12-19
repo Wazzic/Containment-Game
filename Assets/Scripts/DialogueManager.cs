@@ -92,7 +92,7 @@ public class DialogueManager : MonoBehaviour
 
     private IEnumerator ExitDialogueMode()
     {
-        yield return new WaitForSeconds(0.1f); // Changes the typing speed
+        yield return new WaitForSeconds(0.05f); // Changes the typing speed
         Debug.Log("Exiting Dialogue mode");
         dialogueIsPlaying = false;
         dialoguePanel.SetActive(false);
@@ -148,8 +148,6 @@ public class DialogueManager : MonoBehaviour
     }
     private IEnumerator SelectFirstChoice()
     {
-        // Event System requires we clear it first, then wait
-        // for at least one frame before we set the current selected object.
         EventSystem.current.SetSelectedGameObject(null);
         yield return new WaitForEndOfFrame();
         EventSystem.current.SetSelectedGameObject(choices[0].gameObject);
@@ -159,7 +157,6 @@ public class DialogueManager : MonoBehaviour
     {
         if(CanContinueToNextLine)
         {
-            //Debug.Log("Make choices runs");
             currentStory.ChooseChoiceIndex(choiceIndex);
             ContinueStory();
         }
@@ -193,10 +190,10 @@ public class DialogueManager : MonoBehaviour
         else
             {
                 dialogueText.text += letter;
-                yield return new WaitForSeconds(0.025f); // Changes the typing speed
+                yield return new WaitForSeconds(0.015f); // Changes the typing speed
             }
         }
-        yield return new WaitForSeconds(1.2f); //Waits a period before next line
+        yield return new WaitForSeconds(1f); //Waits a period before next line
         //Debug.Log("WAITED 0.8 SECS");
         DisplayChoices();
         CanContinueToNextLine = true;

@@ -18,7 +18,7 @@ public class DoorEnabler : MonoBehaviour
         if (InRange && Input.GetKeyDown(KeyCode.E))
         {
             anim.Play("ClosedPerm");
-            Debug.Log("Door locked");
+            //Debug.Log("Door locked");
             DoorToActivateCol.GetComponent<DoorMovement>().enabled = false;
             StartCoroutine(Waiting());
         }
@@ -28,20 +28,20 @@ public class DoorEnabler : MonoBehaviour
     {
         if (other.CompareTag("Player"))
             InRange = true;
-        Debug.Log("player within range");
+        //Debug.Log("player within range");
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
             InRange = false;
-        Debug.Log("player without range");
+        //Debug.Log("player without range");
     }
 
     private IEnumerator Waiting()
     {
-        yield return new WaitForSeconds(40f);
+        yield return new WaitForSeconds(30f);
         DoorToActivateCol.GetComponent<DoorMovement>().enabled = true;
         anim.Play("Closed");
-        Debug.Log("Waited 50 seconds");
+        //Debug.Log("Waited 50 seconds");
     }
 }
