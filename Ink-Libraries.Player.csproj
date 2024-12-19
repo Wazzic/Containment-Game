@@ -166,20 +166,12 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.AIModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AIModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.ARModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ARModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AccessibilityModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AccessibilityModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.AndroidJNIModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AndroidJNIModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
@@ -192,10 +184,6 @@
     </Reference>
     <Reference Include="UnityEngine.AudioModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.AudioModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.ClothModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ClothModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.ClusterInputModule">
@@ -266,10 +254,6 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.LocalizationModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.NVIDIAModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.NVIDIAModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.ParticleSystemModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
       <Private>False</Private>
@@ -282,10 +266,6 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.PhysicsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.Physics2DModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.Physics2DModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.ProfilerModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ProfilerModule.dll</HintPath>
       <Private>False</Private>
@@ -296,10 +276,6 @@
     </Reference>
     <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.ScreenCaptureModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.SharedInternalsModule">
@@ -322,20 +298,8 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SubstanceModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.SubsystemsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.SubsystemsModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.TLSModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TLSModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.TerrainModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TerrainModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.TerrainPhysicsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TerrainPhysicsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.TextCoreFontEngineModule">
@@ -350,10 +314,6 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.TilemapModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.TilemapModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.UIModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UIModule.dll</HintPath>
       <Private>False</Private>
@@ -364,10 +324,6 @@
     </Reference>
     <Reference Include="UnityEngine.UmbraModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UmbraModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.UnityAnalyticsModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityAnalyticsModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
@@ -394,44 +350,16 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.VFXModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VFXModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.VRModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VRModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.VehiclesModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VehiclesModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.VideoModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VideoModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.VirtualTexturingModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.VirtualTexturingModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.WindModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.WindModule.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="UnityEngine.XRModule">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.11f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
