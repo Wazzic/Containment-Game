@@ -62,23 +62,16 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\First Person Character Controller\FirstPersonController.cs" />
     <Compile Include="Assets\Scripts\Script.cs" />
-    <Compile Include="Assets\External Assets\Ink\Demos\Scripts\QuitGameOnKeypress.cs" />
-    <Compile Include="Assets\External Assets\Office Building\Office Scripts\Fix_elevator_fall.cs" />
     <Compile Include="Assets\Scripts\JunctionBoxDoor.cs" />
     <Compile Include="Assets\Scripts\SceneSwapper.cs" />
     <Compile Include="Assets\Scripts\JunctionBoxInteract.cs" />
     <Compile Include="Assets\Scripts\DialogueManager.cs" />
-    <Compile Include="Assets\External Assets\Office Building\Office Scripts\pass_on_parent.cs" />
     <Compile Include="Assets\Scripts\EndScreen.cs" />
-    <Compile Include="Assets\External Assets\Office Building\Office Scripts\evelator_controll.cs" />
-    <Compile Include="Assets\External Assets\Office Building\Office Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\Test1.cs" />
     <Compile Include="Assets\Scripts\DoorMovement.cs" />
     <Compile Include="Assets\Scripts\TestDialogue.cs" />
     <Compile Include="Assets\Scripts\DoorEnabler.cs" />
     <Compile Include="Assets\Scripts\DoorDisabler.cs" />
-    <Compile Include="Assets\External Assets\Office Building\Office Scripts\DoorAction.cs" />
-    <Compile Include="Assets\External Assets\Ink\Demos\Scripts\BasicInkExample.cs" />
     <Compile Include="Assets\Scripts\FlickeringLight.cs" />
   </ItemGroup>
   <ItemGroup>
